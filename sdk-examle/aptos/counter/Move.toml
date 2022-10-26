@@ -1,0 +1,10 @@
+[package]
+name = "Examples"
+version = "0.0.1"
+upgrade_policy = "compatible"
+
+[addresses]
+MyCounterAddr = "_"
+
+[dependencies]
+AptosFramework = { local = "../../framework/aptos-framework" }
